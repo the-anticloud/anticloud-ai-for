@@ -1,0 +1,159 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:a236a551-11fa-56ee-94aa-4f7b80f95bd4",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T15:40:14Z",
+  "component": {
+   "type": "application",
+   "name": "AI_FOR",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/AI_FOR@83b357604d34",
+   "purl": "pkg:generic/anticloud/AI_FOR@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@azure-rest/ai-inference",
+   "version": "^1.0.0-beta.2",
+   "purl": "pkg:npm/@azure-rest/ai-inference@^1.0.0-beta.2",
+   "bom-ref": "npm/@azure-rest/ai-inference@^1.0.0-beta.2"
+  },
+  {
+   "type": "library",
+   "name": "@azure/core-auth",
+   "version": "^1.11.0",
+   "purl": "pkg:npm/@azure/core-auth@^1.11.0",
+   "bom-ref": "npm/@azure/core-auth@^1.11.0"
+  },
+  {
+   "type": "library",
+   "name": "openai",
+   "version": "^7.15.0",
+   "purl": "pkg:npm/openai@^7.15.0",
+   "bom-ref": "npm/openai@^7.15.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^26.5.1",
+   "purl": "pkg:npm/@types/node@^26.5.1",
+   "bom-ref": "npm/@types/node@^26.5.1"
+  },
+  {
+   "type": "library",
+   "name": "docsify-to-pdf",
+   "version": "0.0.5",
+   "purl": "pkg:npm/docsify-to-pdf@0.0.5",
+   "bom-ref": "npm/docsify-to-pdf@0.0.5"
+  },
+  {
+   "type": "library",
+   "name": "openai",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/openai@1.0.0",
+   "bom-ref": "pypi/openai@>=1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "python-dotenv",
+   "version": ">=1.0.0",
+   "purl": "pkg:pypi/python-dotenv@1.0.0",
+   "bom-ref": "pypi/python-dotenv@>=1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "requests",
+   "version": ">=2.31.0",
+   "purl": "pkg:pypi/requests@2.31.0",
+   "bom-ref": "pypi/requests@>=2.31.0"
+  },
+  {
+   "type": "library",
+   "name": "azure-ai-inference",
+   "version": ">=1.0.0b1",
+   "purl": "pkg:pypi/azure-ai-inference@1.0.0b1",
+   "bom-ref": "pypi/azure-ai-inference@>=1.0.0b1"
+  },
+  {
+   "type": "library",
+   "name": "tiktoken",
+   "version": ">=0.5.0",
+   "purl": "pkg:pypi/tiktoken@0.5.0",
+   "bom-ref": "pypi/tiktoken@>=0.5.0"
+  },
+  {
+   "type": "library",
+   "name": "axios",
+   "version": "^1.16.0",
+   "purl": "pkg:npm/axios@^1.16.0",
+   "bom-ref": "npm/axios@^1.16.0"
+  },
+  {
+   "type": "library",
+   "name": "dotenv",
+   "version": "^16.3.1",
+   "purl": "pkg:npm/dotenv@^16.3.1",
+   "bom-ref": "npm/dotenv@^16.3.1"
+  },
+  {
+   "type": "library",
+   "name": "rimraf",
+   "version": "^6.1.3",
+   "purl": "pkg:npm/rimraf@^6.1.3",
+   "bom-ref": "npm/rimraf@^6.1.3"
+  },
+  {
+   "type": "library",
+   "name": "nodemon",
+   "version": "^3.1.14",
+   "purl": "pkg:npm/nodemon@^3.1.14",
+   "bom-ref": "npm/nodemon@^3.1.14"
+  },
+  {
+   "type": "library",
+   "name": "ts-node",
+   "version": "^10.9.2",
+   "purl": "pkg:npm/ts-node@^10.9.2",
+   "bom-ref": "npm/ts-node@^10.9.2"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "^5.3.3",
+   "purl": "pkg:npm/typescript@^5.3.3",
+   "bom-ref": "npm/typescript@^5.3.3"
+  },
+  {
+   "type": "library",
+   "name": "@azure/core-sse",
+   "version": "latest",
+   "purl": "pkg:npm/@azure/core-sse@latest",
+   "bom-ref": "npm/@azure/core-sse@latest"
+  }
+ ],
+ "sha_unverified": true
+}
